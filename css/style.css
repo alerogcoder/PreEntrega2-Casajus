@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    top: 0;
+    margin-top: -30px;
+    background-color: #ddd;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+main {
+    margin-top: -100px;
+}
+.fullwdw {
+    height: 100vh;
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.title {
+    font-family: Poppins;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 60px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #111;
+    margin: 30px;
+}
+.links li {
+    display: inline;
+    text-transform: uppercase;
+    font-family: share tech mono;
+}
+body a {
+    text-decoration: none;
+    cursor: crosshair;
+}
+.links a {
+    color: #111;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+main h1 {
+    font-family: poppins;
+    color: #ccc;
+    text-shadow: -1px -1px 0 #0c0c0c, 1px -1px 0 #0c0c0c, -1px 1px 0 #0c0c0c, 1px 1px 0 #0c0c0c;
+    width: 600px;
+    text-align: justify;
+    margin: 100px;
+    font-size: 50px;
+}
+.moreinfo {
+    background-color: #ccc;
+    border: 2px solid #c3c3c3;
+    font-family: share tech mono;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-left: 100px;
+}
+#sliders article {
+    display: inline-block;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin: 50px 100px;
+}
+#sliders article:first-of-type {
+    width: 500px;
+}
+#sliders img {
+    width: 300px;
+    border: 1px solid;
+    height: 400px;
+}
+footer {
+    background: rgb(62 192 199 / 75%);
+    width: 100%;
+    position: absolute;
+}
+footer section {
+    display: inline-block;
+}
+footer article {
+    display: inline-block;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: justify;
+    width: 200px;
+    margin: 20px 50px;
+}
+footer li {
+    display: block;
+}
+footer ul {
+    padding: 0px;
+}
+section i {
+    font-size: 30px;
+    margin: 0px 20px;
+    color: #0c0c0c;
+    vertical-align: super;
+}
+article.bali {
+    width: 300px;
+    display: inline-block;
+    border: 1px dashed #111;
+    margin: 0px 30px;
+    height: 400px;
+    background-image: url('../assets/bali.jpg');
+    background-size: cover;
+}
+article.morocco {
+    width: 300px;
+    display: inline-block;
+    border: 1px dashed #111;
+    margin: 0px 30px;
+    height: 400px;
+    background-image: url('../assets/morocco.jpg');
+    background-size: cover;
+}
+main h2 {
+    font-family: poppins;
+    font-size: 40px;
+    margin: 0px 40px 20px 40px;
+}
+article div {
+    background: rgba(0, 0, 0, 0.2);
+    font-family: 'Share Tech Mono';
+    text-transform: uppercase;
+    color: #ddd;
+}
+.contactinfo {
+    color: #111;
+    font-family: poppins;
+    text-transform: inherit;
+    width: 500px;
+    text-align: justify;
+    padding: 30px;
+}
+.paquete {
+    width: 300px;
+    padding: 30px;
+    color: #111;
+    text-align: justify;
+    font-family: poppins;
+    text-transform: inherit;
+    margin: 0px 20px;
+    border: 2px dashed;
+}
+.paquete>titulo {
+    text-align: center;
+    display: block;
+    font-weight: 900;
+    text-transform: uppercase;
+}
